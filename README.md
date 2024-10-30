@@ -8,7 +8,7 @@ The page uses **Bootstrap** for the card designs and retrieves character data fr
 
 This project was created to explore and learn about JSON data handling and responsive website designs with Bootstrap.
 </br>
-<img src="https://media1.tenor.com/m/fwFci6Y5wyQAAAAd/yagi-toshinori.gif" width=200;>
+<img src="https://media1.tenor.com/m/fwFci6Y5wyQAAAAd/yagi-toshinori.gif" style="width:200px;">
 
 ## 🚀 Technologies Used
 
