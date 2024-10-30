@@ -1,8 +1,6 @@
-.outline-img {
-    
-  }
-
-/* Loading Screen Styles */
+body{
+    overflow-x: hidden;
+}
 #loadingScreen {
     position: fixed;
     top: 0;
@@ -15,12 +13,12 @@
     justify-content: center;
     z-index: 9999;
     opacity: 1;
-    transition: opacity 1s ease; /* Transition for fade-out */
+    transition: opacity 1s ease;
 }
 
 #loadingLogo {
     width: 100px;
-    animation: scaleUp 3s ease forwards; /* Scale-up animation */
+    animation: scaleUp 3s ease forwards;
 }
 
 @keyframes scaleUp {
