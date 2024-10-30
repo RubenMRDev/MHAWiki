@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/mha-icon.webp" type="image/x-icon">
+    <title>MHA Wiki</title>
+</head>
+<body class="d-flex flex-column min-vh-100" style="background-image: url(images/background.webp);">
+
+  <!-- Loading Screen -->
+  <div id="loadingScreen">
+      <img src="images/mha-logo.webp" id="loadingLogo" alt="Logo">
+  </div>
+
+  <header style="position: relative;">
+    <nav class="navbar navbar-expand-lg bg-gradient" style="background-color: #369195;">
+      <div class="container-fluid">
+        <a class="navbar-brand me-5" href="#">
+          <img src="images/mha-logo.webp" width="150" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ºms-auto mb-2 me-5">
+            <li class="nav-item me-3">
+              <a class="nav-link text-white fw-bold" aria-current="page" href="#">Characters</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img src="images/character_h2.webp" alt="" class="rounded mx-auto d-block img-fluid py-3 mb-2">
+</header> 
+  <!-- Main Content -->
+  <main class="flex-grow-1">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+        <button type="button" class="btn btn-lg" style="background-color: #369195;" data-filter="Student" onclick="toggleButton(this)"><img src="images/nav_chara_group01_off.png" data-on="images/nav_chara_group01_on.png" data-off="images/nav_chara_group01_off.png"></button>
+        <button type="button" class="btn btn-lg" style="background-color: #369195;"  data-filter="Hero" onclick="toggleButton(this)"><img src="images/nav_chara_group04_off.png"  data-on="images/nav_chara_group04_on.png" data-off="images/nav_chara_group04_off.png"></button>
+        <button type="button" class="btn btn-lg" style="background-color: #369195;"  data-filter="Villan" onclick="toggleButton(this)"><img src="images/nav_chara_group06_off.png"  data-on="images/nav_chara_group06_on.png" data-off="images/nav_chara_group06_off.png"></button>
+      </div>
+          <div id="characterSection" class="row mt-5"></div>
+      </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-white text-lg-start bg-gradient" style="background-color: #369195;">
+      <div class="text-center p-3">
+          © 2024 Copyright:
+          <a class="text-white" href="https://github.com/rubenmrdev">RubenMRDev</a>
+      </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

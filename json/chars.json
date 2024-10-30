@@ -1,0 +1,214 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Izuku Midoriya",
+            "rank": "Student",
+            "heroname": "Deku",
+            "quirk": "One For All",
+            "age": 16,
+            "height": "166 cm",
+            "url": "images/izuku-midoriya.webp"
+        },
+        {
+            "id": 2,
+            "name": "Katsuki Bakugo",
+            "rank": "Student",
+            "heroname": "Great Explosion Murder God Dynamight",
+            "quirk": "Explosion",
+            "age": 16,
+            "height": "172 cm",
+            "url": "images/katsuki-bakugo.webp"
+        },
+        {
+            "id": 3,
+            "name": "Ochaco Uraraka",
+            "rank": "Student",
+            "heroname": "Uravity",
+            "quirk": "Zero Gravity",
+            "age": 16,
+            "height": "156 cm",
+            "url": "images/ochako-uraraka.webp"
+        },
+        {
+            "id": 4,
+            "name": "Shoto Todoroki",
+            "rank": "Student",
+            "heroname": "Shoto",
+            "quirk": "Half-Cold Half-Hot",
+            "age": 16,
+            "height": "176 cm",
+            "url": "images/shoto-todoroki.webp"
+        },
+        {
+            "id": 5,
+            "name": "Tenya Iida",
+            "rank": "Student",
+            "heroname": "Ingenium",
+            "quirk": "Engine",
+            "age": 17,
+            "height": "179 cm",
+            "url": "images/tenya-iida.webp"
+        },
+        {
+            "id": 6,
+            "name": "Tsuyu Asui",
+            "rank": "Student",
+            "heroname": "Froppy",
+            "quirk": "Frog",
+            "age": 16,
+            "height": "150 cm",
+            "url": "images/tsuyu-asui.webp"
+        },
+        {
+            "id": 7,
+            "name": "Eijiro Kirishima",
+            "rank": "Student",
+            "heroname": "Red Riot",
+            "quirk": "Hardening",
+            "age": 16,
+            "height": "170 cm",
+            "url": "images/ejiro-kirishima.webp"
+        },
+        {
+            "id": 8,
+            "name": "Momo Yaoyorozu",
+            "rank": "Student",
+            "heroname": "Creati",
+            "quirk": "Creation",
+            "age": 16,
+            "height": "173 cm",
+            "url": "images/momo-yaoyorozu.webp"
+        },
+        {
+            "id": 9,
+            "name": "Minoru Mineta",
+            "rank": "Student",
+            "heroname": "Grape Juice",
+            "quirk": "Pop Off",
+            "age": 16,
+            "height": "108 cm",
+            "url": "images/minoru-mineta.webp"
+        },
+        {
+            "id": 10,
+            "name": "Denki Kaminari",
+            "rank": "Student",
+            "heroname": "Chargebolt",
+            "quirk": "Electrification",
+            "age": 16,
+            "height": "168 cm",
+            "url": "images/denki-kaminari.webp"
+        },
+        {
+            "id": 11,
+            "name": "Toshinori Yagi (Weaken)",
+            "rank": "Hero",
+            "heroname": "All Might",
+            "quirk": "One For All",
+            "age": 49,
+            "height": "220 cm",
+            "url": "images/all-might-weaken.webp"
+        },
+        {
+            "id": 12,
+            "name": "Toshinori Yagi",
+            "rank": "Hero",
+            "heroname": "All Might",
+            "quirk": "One For All",
+            "age": 49,
+            "height": "220 cm",
+            "url": "images/all-might.webp"
+        },
+        {
+            "id": 13,
+            "name": "Enji Todoroki",
+            "rank": "Hero",
+            "heroname": "Endeavor",
+            "quirk": "Hellflame",
+            "age": 45,
+            "height": "195 cm",
+            "url": "images/enji-todoroki.webp"
+        },
+        {
+            "id": 14,
+            "name": "Keigo Takami",
+            "rank": "Hero",
+            "heroname": "Hawks",
+            "quirk": "Fierce Wings",
+            "age": 23,
+            "height": "172 cm",
+            "url": "images/hawks.webp"
+        },
+        {
+            "id": 15,
+            "name": "Mirko",
+            "rank": "Hero",
+            "heroname": "Rabbit Hero",
+            "quirk": "Rabbit",
+            "age": 27,
+            "height": "159 cm",
+            "url": "images/mirko.webp"
+        },
+        {
+            "id": 16,
+            "name": "Tomura Shigaraki",
+            "rank": "Villan",
+            "heroname": "Shigaraki",
+            "quirk": "Decay",
+            "age": 21,
+            "height": "175 cm",
+            "url": "images/tomura-shigaraki.webp"
+        },
+        {
+            "id": 17,
+            "name": "Toya Todoroki",
+            "rank": "Villan",
+            "heroname": "Dabi",
+            "quirk": "Cremation",
+            "age": 24,
+            "height": "176 cm",
+            "url": "images/toya-todoroki.webp"
+        },
+        {
+            "id": 18,
+            "name": "Himiko Toga",
+            "rank": "Villan",
+            "heroname": "Toga",
+            "quirk": "Transform",
+            "age": 17,
+            "height": "157 cm",
+            "url": "images/himiko-toga.webp"
+        },
+        {
+            "id": 19,
+            "name": "Chizome Akaguro",
+            "rank": "Villan",
+            "heroname": "Stain",
+            "quirk": "Bloodcurdle",
+            "age": 31,
+            "height": "180 cm",
+            "url": "images/stain.webp"
+        },
+        {
+            "id": 20,
+            "name": "Kai Chisaki",
+            "rank": "Villan",
+            "heroname": "Overhaul",
+            "quirk": "Overhaul",
+            "age": 28,
+            "height": "179 cm",
+            "url": "images/kai-chisaki.webp"
+        },
+        {
+            "id": 21,
+            "name": "Jin Bubaigawara",
+            "rank": "Villan",
+            "heroname": "Twice",
+            "quirk": "Double",
+            "age": 31,
+            "height": "178 cm",
+            "url": "images/twice.webp"
+        }
+    ]
+}
