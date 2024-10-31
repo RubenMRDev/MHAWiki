@@ -20,61 +20,144 @@ async function fetchCharactersJson() {
     return char;
 }
 
-fetchCharactersJson().then(char => {
-    const characterSection = document.getElementById("characterSection");
+fetchCharactersJson().then(char=>{
+    const characterSection= document.getElementById("characterSection");
 
-    function renderCharacters(characters) {
-        characterSection.innerHTML = '';
-        characters.forEach(character => {
-            const { name, url, heroname, quirk, age, height } = character;
+    for(let i=0;i<char.characters.length;i++){
+        
+        let name= char.characters[i].name;
+        let url= char.characters[i].url;
+        let heroname= char.characters[i].heroname;
+        let quirk= char.characters[i].quirk;
+        let age= char.characters[i].age;
+        let height= char.characters[i].height;
+        let rank= char.characters[i].rank;
 
-            characterSection.innerHTML += `
-            <div class="card mx-auto mb-4 bg-warning bg-gradient" style="width: 18rem;">
-                <img src="${url}" class="card-img-top outline-img mt-3" alt="..." style="width:17rem; height: 25rem; object-fit: contain; filter: drop-shadow(-10px -10px 0 #90731d);">
-                <div class="card-body">
-                    <h5 class="card-title">${name}</h5>
+        characterSection.innerHTML+=`
+        <div class="card mx-auto mb-4 bg-warning bg-gradient ${rank}"  style="width: 18rem;">
+            <img src="${url}" class="card-img-top outline-img mt-3" alt="..." style="width:17rem; height: 25rem; object-fit: contain;">
+            <div class="card-body">
+            <h5 class="card-title">${name}</h5>
                     <p class="card-text mb-0">${heroname}</p>
                     <p class="card-text mb-0"><small class="text-body-secondary">Quirk: ${quirk}</small></p>
                     <p class="card-text mb-0"><small class="text-body-secondary">Age: ${age}</small></p>
                     <p class="card-text mb-0"><small class="text-body-secondary">Height: ${height}</small></p>
-                </div>
             </div>
-            `;
-        });
+        </div>
+        `;
+
     }
+})
 
-    renderCharacters(char.characters);
+const students = document.getElementsByClassName("Student");
+const heroes = document.getElementsByClassName("Hero");
+const villans = document.getElementsByClassName("Villan");
 
-    const filterButtons = document.querySelectorAll('.btn');
+let studentActive=false;
+let villanActive=false;
+let heroActive=false;
 
-    let activeButton = null;
-    
-    filterButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const filterRank = button.dataset.filter;
-            if (button === activeButton) {
-                renderCharacters(char.characters);
-                toggleButton(null);
-                activeButton = null;
-            } else {
-                const filteredCharacters = char.characters.filter(character => character.rank === filterRank);
-                renderCharacters(filteredCharacters);
-                toggleButton(button);
-                activeButton = button;
-            }
-        });
-    });
-});
+const studentButton= document.getElementById("studentButton");
+const heroButton= document.getElementById("heroButton");
+const villanButton= document.getElementById("villanButton");
 
-function toggleButton(selectedButton) {
-    const buttons = document.querySelectorAll('.btn');
-
-    buttons.forEach(button => {
-        const img = button.querySelector('img');
-        if (button === selectedButton) {
-            img.src = img.dataset.on;
-        } else {
-            img.src = img.dataset.off;
-        }
-    });
+function changeImageButton(button,url){
+    const img= button.querySelector("img");
+    img.src= url;
 }
+
+function hideAll(){
+    for(let student of students){
+        student.style.display="none";
+    }
+    for(let hero of heroes){
+        hero.style.display="none";
+    }
+    for(let villan of villans){
+        villan.style.display="none";
+    }
+}
+
+function showAll(){
+    for(let student of students){
+        student.style.display="block";
+    }
+    for(let hero of heroes){
+        hero.style.display="block";
+    }
+    for(let villan of villans){
+        villan.style.display="block";
+    }
+}
+
+function showStudents(){
+    if(!studentActive){
+        hideAll()
+        for(let student of students){
+            student.style.display="block";
+        }
+        studentActive=true;
+        heroActive=false;
+        villanActive=false;
+        changeImageButton(studentButton,"images/UI/nav_chara_group01_on.png");
+        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+
+
+    }else{
+        showAll()
+        studentActive=false;
+        changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
+        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+    }
+}  
+
+function showHeroes(){
+    if(!heroActive){
+        hideAll()
+        for(let hero of heroes){
+            hero.style.display="block";
+        }
+        heroActive=true;
+        studentActive=false;
+        villanActive=false;
+        
+        changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
+        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group04_on.png");
+
+    }else{
+        showAll()
+        heroActive=false;
+        
+        changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
+        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+
+    }
+}
+
+function showVillans(){
+    if(!villanActive){
+        hideAll()
+        for(let villan of villans){
+            villan.style.display="block";
+        }
+        villanActive=true;
+        studentActive=false;
+        heroActive=false;
+        
+        changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
+        changeImageButton(villanButton,"images/UI/nav_chara_group06_on.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+    }else{
+        showAll()
+        villanActive=false;
+        
+        changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
+        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+        
+    }
+}   
