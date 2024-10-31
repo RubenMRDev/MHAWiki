@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
         setTimeout(() => {
             loadingScreen.style.display = 'none';
         }, 1000);
-    }, 3000);
+    }, 2500);
 });
 
 async function fetchCharactersJson() {

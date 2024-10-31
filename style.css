@@ -16,18 +16,3 @@ body{
     transition: opacity 1s ease;
 }
 
-#loadingLogo {
-    width: 100px;
-    animation: scaleUp 3s ease forwards;
-}
-
-@keyframes scaleUp {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(6);
-    }
-}
-
-
