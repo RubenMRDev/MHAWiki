@@ -35,7 +35,7 @@ fetchCharactersJson().then(char=>{
 
         characterSection.innerHTML+=`
         <div class="card mx-auto mb-4 bg-warning bg-gradient ${rank}"  style="width: 18rem;">
-            <img src="${url}" class="card-img-top outline-img mt-3" alt="..." style="width:17rem; height: 25rem; object-fit: contain;">
+            <img src="${url}" class="card-img-top outline-img mt-3" alt="..." style="width:17rem; height: 25rem; object-fit: contain; filter: drop-shadow(-10px -10px 0 #90731d);">
             <div class="card-body">
             <h5 class="card-title">${name}</h5>
                     <p class="card-text mb-0">${heroname}</p>
@@ -52,14 +52,17 @@ fetchCharactersJson().then(char=>{
 const students = document.getElementsByClassName("Student");
 const heroes = document.getElementsByClassName("Hero");
 const villans = document.getElementsByClassName("Villan");
+const profesors = document.getElementsByClassName("Profesor");
 
 let studentActive=false;
 let villanActive=false;
 let heroActive=false;
+let profesorActive=false;
 
 const studentButton= document.getElementById("studentButton");
 const heroButton= document.getElementById("heroButton");
 const villanButton= document.getElementById("villanButton");
+const profesorButton= document.getElementById("profesorButton");
 
 function changeImageButton(button,url){
     const img= button.querySelector("img");
@@ -75,6 +78,9 @@ function hideAll(){
     }
     for(let villan of villans){
         villan.style.display="none";
+    }
+    for(let profesor of profesors){
+        profesor.style.display="none";
     }
 }
 
@@ -98,10 +104,12 @@ function showStudents(){
         }
         studentActive=true;
         heroActive=false;
+        profesor=false;
         villanActive=false;
         changeImageButton(studentButton,"images/UI/nav_chara_group01_on.png");
         changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
-        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
+        changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
 
 
     }else{
@@ -109,7 +117,8 @@ function showStudents(){
         studentActive=false;
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
         changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
-        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
+        changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
     }
 }  
 
@@ -122,10 +131,12 @@ function showHeroes(){
         heroActive=true;
         studentActive=false;
         villanActive=false;
+        profesor=false;
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
         changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
-        changeImageButton(heroButton,"images/UI/nav_chara_group04_on.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group05_on.png");
+        changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
 
     }else{
         showAll()
@@ -133,7 +144,35 @@ function showHeroes(){
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
         changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
-        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
+        changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
+
+    }
+}
+function showProfesors(){
+    if(!profesorActive){
+        hideAll()
+        for(let profesor of profesors){
+            profesor.style.display="block";
+        }
+        heroActive=false;
+        profesorActive=true;
+        studentActive=false;
+        villanActive=false;
+        
+        changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
+        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(profesorButton,"images/UI/nav_chara_group04_on.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
+
+    }else{
+        showAll()
+        profesorActive=false;
+        
+        changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
+        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
 
     }
 }
@@ -146,18 +185,21 @@ function showVillans(){
         }
         villanActive=true;
         studentActive=false;
+        profesorActive=false;
         heroActive=false;
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
         changeImageButton(villanButton,"images/UI/nav_chara_group06_on.png");
-        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
+        changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
     }else{
         showAll()
         villanActive=false;
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
         changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
-        changeImageButton(heroButton,"images/UI/nav_chara_group04_off.png");
+        changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
+        changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
         
     }
 }   

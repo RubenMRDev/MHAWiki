@@ -192,24 +192,85 @@
         },
         {
             "id": 11,
-            "name": "Toshinori Yagi (Weaken)",
-            "rank": "Hero",
+            "name": "Toshinori Yagi ",
+            "rank": "Profesor",
             "heroname": "All Might",
             "quirk": "One For All",
             "age": 49,
             "height": "220 cm",
-            "url": "images/heroes/all-might-weaken.webp"
+            "url": "images/profesors/toshinori-yagi.webp"
         },
         {
             "id": 12,
-            "name": "Toshinori Yagi",
-            "rank": "Hero",
-            "heroname": "All Might",
-            "quirk": "One For All",
-            "age": 49,
-            "height": "220 cm",
-            "url": "images/heroes/all-might.webp"
+            "name": "Shota Aizawa",
+            "rank": "Profesor",
+            "heroname": "Eraser Head",
+            "quirk": "Erasure",
+            "age": 30,
+            "height": "180 cm",
+            "url": "images/profesors/shota-aizawa.webp"
         },
+        {
+            "id": 14,
+            "name": "Nemuri Kayama",
+            "rank": "Profesor",
+            "heroname": "Midnight",
+            "quirk": "Somnambulist",
+            "age": 29,
+            "height": "168 cm",
+            "url": "images/profesors/nemuri-kayama.webp"
+        },
+        {
+            "id": 16,
+            "name": "Sōsuke Aizawa",
+            "rank": "Profesor",
+            "heroname": "Snipe",
+            "quirk": "Sniping",
+            "age": 34,
+            "height": "176 cm",
+            "url": "images/profesors/sousuke-aizawa.webp"
+        },
+        {
+            "id": 15,
+            "name": "Sekijiro Kan",
+            "rank": "Profesor",
+            "heroname": "Cementoss",
+            "quirk": "Cement",
+            "age": 35,
+            "height": "180 cm",
+            "url": "images/profesors/sekijiro-kan.webp"
+        }
+        ,
+        {
+            "id": 13,
+            "name": "Hizashi Yamada",
+            "rank": "Profesor",
+            "heroname": "Present Mic",
+            "quirk": "Voice",
+            "age": 30,
+            "height": "185 cm",
+            "url": "images/profesors/hizashi-yamada.webp"
+        },
+        {
+            "id": 17,
+            "name": "Vlad King",
+            "rank": "Profesor",
+            "heroname": "Vlad King",
+            "quirk": "Bloodcurdle",
+            "age": 42,
+            "height": "192 cm",
+            "url": "images/profesors/vlad-king.webp"
+        },{
+            "id": 18,
+            "name": "Hijiri Kōhei",
+            "rank": "Hero",
+            "heroname": "Beast Jeanist",
+            "quirk": "Fiber Master",
+            "age": 35,
+            "height": "184 cm",
+            "url": "images/heroes/hijiri-kouhei.webp"
+        }
+        ,
         {
             "id": 13,
             "name": "Enji Todoroki",
@@ -219,7 +280,16 @@
             "age": 45,
             "height": "195 cm",
             "url": "images/heroes/enji-todoroki.webp"
-        },
+        },{
+            "id": 19,
+            "name": "Shinji Nishiya",
+            "rank": "Hero",
+            "heroname": "Edge Shot",
+            "quirk": "Foldabody",
+            "age": 32,
+            "height": "179 cm",
+            "url": "images/heroes/shinji-nishiya.webp"
+        },        
         {
             "id": 14,
             "name": "Keigo Takami",
