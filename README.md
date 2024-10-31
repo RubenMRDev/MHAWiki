@@ -10,6 +10,15 @@ This project was created to explore and learn about JSON data handling and respo
 </br>
 <img src="https://media1.tenor.com/m/fwFci6Y5wyQAAAAd/yagi-toshinori.gif" style="width:200px;">
 
+## 🔜 To Do List
+
+- [x]  Add all Class-A Students
+- [x]  Better folder structure
+- [ ]  Add all Pro Heroes
+- [ ]  Add all Villans
+- [ ]  Fix the IDs in the JSON file
+- [ ]  Better UI Design in the cards
+
 ## 🚀 Technologies Used
 
 This project was developed using the following technologies:

@@ -8,7 +8,7 @@
             "quirk": "One For All",
             "age": 16,
             "height": "166 cm",
-            "url": "images/izuku-midoriya.webp"
+            "url": "images/students/izuku-midoriya.webp"
         },
         {
             "id": 2,
@@ -18,7 +18,7 @@
             "quirk": "Explosion",
             "age": 16,
             "height": "172 cm",
-            "url": "images/katsuki-bakugo.webp"
+            "url": "images/students/katsuki-bakugo.webp"
         },
         {
             "id": 3,
@@ -28,7 +28,7 @@
             "quirk": "Zero Gravity",
             "age": 16,
             "height": "156 cm",
-            "url": "images/ochako-uraraka.webp"
+            "url": "images/students/ochako-uraraka.webp"
         },
         {
             "id": 4,
@@ -38,7 +38,7 @@
             "quirk": "Half-Cold Half-Hot",
             "age": 16,
             "height": "176 cm",
-            "url": "images/shoto-todoroki.webp"
+            "url": "images/students/shoto-todoroki.webp"
         },
         {
             "id": 5,
@@ -48,7 +48,7 @@
             "quirk": "Engine",
             "age": 17,
             "height": "179 cm",
-            "url": "images/tenya-iida.webp"
+            "url": "images/students/tenya-iida.webp"
         },
         {
             "id": 6,
@@ -58,7 +58,7 @@
             "quirk": "Frog",
             "age": 16,
             "height": "150 cm",
-            "url": "images/tsuyu-asui.webp"
+            "url": "images/students/tsuyu-asui.webp"
         },
         {
             "id": 7,
@@ -68,7 +68,7 @@
             "quirk": "Hardening",
             "age": 16,
             "height": "170 cm",
-            "url": "images/ejiro-kirishima.webp"
+            "url": "images/students/ejiro-kirishima.webp"
         },
         {
             "id": 8,
@@ -78,7 +78,7 @@
             "quirk": "Creation",
             "age": 16,
             "height": "173 cm",
-            "url": "images/momo-yaoyorozu.webp"
+            "url": "images/students/momo-yaoyorozu.webp"
         },
         {
             "id": 9,
@@ -88,7 +88,7 @@
             "quirk": "Pop Off",
             "age": 16,
             "height": "108 cm",
-            "url": "images/minoru-mineta.webp"
+            "url": "images/students/minoru-mineta.webp"
         },
         {
             "id": 10,
@@ -98,7 +98,97 @@
             "quirk": "Electrification",
             "age": 16,
             "height": "168 cm",
-            "url": "images/denki-kaminari.webp"
+            "url": "images/students/denki-kaminari.webp"
+        },
+        {
+            "id": 1,
+            "name": "Yuga Aoyama",
+            "rank": "Student",
+            "heroname": "Can't Stop Twinkling",
+            "quirk": "Navel Laser",
+            "age": 16,
+            "height": "167 cm",
+            "url": "images/students/yuga-aoyama.webp"
+        },
+        {
+            "id": 2,
+            "name": "Kyoka Jiro",
+            "rank": "Student",
+            "heroname": "Earphone Jack",
+            "quirk": "Earphone Jack",
+            "age": 16,
+            "height": "156 cm",
+            "url": "images/students/kyoka-jiro.webp"
+        },
+        {
+            "id": 3,
+            "name": "Mina Ashido",
+            "rank": "Student",
+            "heroname": "Pinky",
+            "quirk": "Acid",
+            "age": 16,
+            "height": "158 cm",
+            "url": "images/students/mina-ashido.webp"
+        },
+        {
+            "id": 4,
+            "name": "Mezo Shoji",
+            "rank": "Student",
+            "heroname": "Tentacole",
+            "quirk": "Dupli-Arms",
+            "age": 16,
+            "height": "178 cm",
+            "url": "images/students/mezo-shoji.webp"
+        },
+        {
+            "id": 5,
+            "name": "Mashirao Ojiro",
+            "rank": "Student",
+            "heroname": "Tailman",
+            "quirk": "Tail",
+            "age": 16,
+            "height": "169 cm",
+            "url": "images/students/mashirao-ojiro.webp"
+        },
+        {
+            "id": 6,
+            "name": "Hanta Sero",
+            "rank": "Student",
+            "heroname": "Cellophane",
+            "quirk": "Tape",
+            "age": 16,
+            "height": "176 cm",
+            "url": "images/students/hanta-sero.webp"
+        },
+        {
+            "id": 7,
+            "name": "Toru Hagakure",
+            "rank": "Student",
+            "heroname": "Invisible Girl",
+            "quirk": "Invisible",
+            "age": 16,
+            "height": "158 cm",
+            "url": "images/students/toru-hagakure.webp"
+        },
+        {
+            "id": 8,
+            "name": "Rikido sato",
+            "rank": "Student",
+            "heroname": "Sugarman",
+            "quirk": "Fusion",
+            "age": 16,
+            "height": "170 cm",
+            "url": "images/students/rikido-sato.webp"
+        },
+        {
+            "id": 9,
+            "name": "Koji Koda",
+            "rank": "Student",
+            "heroname": "Anima",
+            "quirk": "Anivoice",
+            "age": 16,
+            "height": "172 cm",
+            "url": "images/students/koji-koda.webp"
         },
         {
             "id": 11,
@@ -108,7 +198,7 @@
             "quirk": "One For All",
             "age": 49,
             "height": "220 cm",
-            "url": "images/all-might-weaken.webp"
+            "url": "images/heroes/all-might-weaken.webp"
         },
         {
             "id": 12,
@@ -118,7 +208,7 @@
             "quirk": "One For All",
             "age": 49,
             "height": "220 cm",
-            "url": "images/all-might.webp"
+            "url": "images/heroes/all-might.webp"
         },
         {
             "id": 13,
@@ -128,7 +218,7 @@
             "quirk": "Hellflame",
             "age": 45,
             "height": "195 cm",
-            "url": "images/enji-todoroki.webp"
+            "url": "images/heroes/enji-todoroki.webp"
         },
         {
             "id": 14,
@@ -138,7 +228,7 @@
             "quirk": "Fierce Wings",
             "age": 23,
             "height": "172 cm",
-            "url": "images/hawks.webp"
+            "url": "images/heroes/hawks.webp"
         },
         {
             "id": 15,
@@ -148,7 +238,7 @@
             "quirk": "Rabbit",
             "age": 27,
             "height": "159 cm",
-            "url": "images/mirko.webp"
+            "url": "images/heroes/mirko.webp"
         },
         {
             "id": 16,
@@ -158,7 +248,7 @@
             "quirk": "Decay",
             "age": 21,
             "height": "175 cm",
-            "url": "images/tomura-shigaraki.webp"
+            "url": "images/villans/tomura-shigaraki.webp"
         },
         {
             "id": 17,
@@ -168,7 +258,7 @@
             "quirk": "Cremation",
             "age": 24,
             "height": "176 cm",
-            "url": "images/toya-todoroki.webp"
+            "url": "images/villans/toya-todoroki.webp"
         },
         {
             "id": 18,
@@ -178,7 +268,7 @@
             "quirk": "Transform",
             "age": 17,
             "height": "157 cm",
-            "url": "images/himiko-toga.webp"
+            "url": "images/villans/himiko-toga.webp"
         },
         {
             "id": 19,
@@ -188,7 +278,7 @@
             "quirk": "Bloodcurdle",
             "age": 31,
             "height": "180 cm",
-            "url": "images/stain.webp"
+            "url": "images/villans/stain.webp"
         },
         {
             "id": 20,
@@ -198,7 +288,7 @@
             "quirk": "Overhaul",
             "age": 28,
             "height": "179 cm",
-            "url": "images/kai-chisaki.webp"
+            "url": "images/villans/kai-chisaki.webp"
         },
         {
             "id": 21,
@@ -208,7 +298,7 @@
             "quirk": "Double",
             "age": 31,
             "height": "178 cm",
-            "url": "images/twice.webp"
+            "url": "images/villans/twice.webp"
         }
     ]
 }
