@@ -28,27 +28,35 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 me-5">
             <li class="nav-item me-3">
-              <a class="nav-link text-white fw-bold" aria-current="page" href="#">Characters</a>
+              <button style="background: none; border: none;" onclick="characterMenu()"><img src="images/UI/navhead_chara_on.png" id="characterButton"></button>
+              <!-- <a class="nav-link text-white fw-bold" aria-current="page" href="index.html">Characters</a> -->
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-white" href="#">Gallery</a>
+              <button style="background: none; border: none;" onclick="galleryMenu()"><img src="images/UI/navhead_gallery.png" id="galleryButton"></button>
+              <!-- <a class="nav-link text-white" href="galery.html">Gallery</a> -->
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <img src="images/UI/character_h2.webp" alt="" class="rounded mx-auto d-block img-fluid py-3 mb-2">
+    <img src="images/UI/character_h2.webp" id="h2indicator" class="rounded mx-auto d-block img-fluid py-3 mb-2">
   </header> 
   <!-- Main Content -->
   <main class="flex-grow-1">
       <div class="container">
-        <div class="d-flex flex-wrap justify-content-center gap-3">
-          <button type="button" class="btn btn-lg" id="studentButton" style="background-color: #369195;" onclick="showStudents()"><img src="images/UI/nav_chara_group01_off.png"></button>
-          <button type="button" class="btn btn-lg" id="heroButton" style="background-color: #369195;" onclick="showHeroes()"><img src="images/UI/nav_chara_group05_off.png"></button>
-          <button type="button" class="btn btn-lg" id="profesorButton" style="background-color: #369195;" onclick="showProfesors()"><img src="images/UI/nav_chara_group04_off.png"></button>
-          <button type="button" class="btn btn-lg" id="villanButton" style="background-color: #369195;" onclick="showVillans()"><img src="images/UI/nav_chara_group06_off.png"></button>
+        <div id="characterMenuContainer">
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <button type="button" class="btn btn-lg" id="studentButton" style="background-color: #369195;" onclick="showStudents()"><img src="images/UI/nav_chara_group01_off.png"></button>
+            <button type="button" class="btn btn-lg" id="heroButton" style="background-color: #369195;" onclick="showHeroes()"><img src="images/UI/nav_chara_group05_off.png"></button>
+            <button type="button" class="btn btn-lg" id="profesorButton" style="background-color: #369195;" onclick="showProfesors()"><img src="images/UI/nav_chara_group04_off.png"></button>
+            <button type="button" class="btn btn-lg" id="villanButton" style="background-color: #369195;" onclick="showVillans()"><img src="images/UI/nav_chara_group06_off.png"></button>
+          </div>
+            <div id="characterSection" class="row mt-5"></div>
         </div>
-          <div id="characterSection" class="row mt-5"></div>
+
+        <div id="posterMenuContainer" style="display: none;">
+          <div class="row mt-5"  id="posterSection"></div>
+        </div>
       </div>
   </main>
 

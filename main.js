@@ -1,5 +1,13 @@
-const requestURL = "../json/chars.json";
+const requestCharactersURL = "../json/chars.json";
+const requesPosterURL = "../json/posters.json";
 
+const charactersDiv= document.getElementById("characterMenuContainer");
+const postersDiv= document.getElementById("posterMenuContainer");
+        
+
+//0 -> Characters
+//1 -> Gallery
+let menuIndex=0;
 
 window.addEventListener('load', () => {
     const loadingScreen = document.getElementById('loadingScreen');
@@ -15,9 +23,15 @@ window.addEventListener('load', () => {
 });
 
 async function fetchCharactersJson() {
-    const response = await fetch(requestURL);
+    const response = await fetch(requestCharactersURL);
     const char = await response.json();
     return char;
+}
+
+async function fetchPostersJson() {
+    const response = await fetch(requesPosterURL);
+    const poster = await response.json();
+    return poster;
 }
 
 fetchCharactersJson().then(char=>{
@@ -48,6 +62,48 @@ fetchCharactersJson().then(char=>{
 
     }
 })
+
+fetchPostersJson().then(poster=>{
+    const posterSection= document.getElementById("posterSection");
+
+    for(let i=0;i<poster.posters.length;i++){
+        
+        let id = poster.posters[i].id;
+        let url = poster.posters[i].url;
+
+        posterSection.innerHTML+=`
+            <img class="img mx-auto mb-5 " src="${url}" alt="Card image cap" style="width: 18rem; object-fit: contain;">
+        `;
+    }
+})
+
+function characterMenu(){
+    if(menuIndex==1){
+        charactersDiv.style.display="block";
+        postersDiv.style.display="none";
+        document.getElementById("characterButton").setAttribute("src","images/UI/navhead_chara_on.png")
+        document.getElementById("galleryButton").setAttribute("src","images/UI/navhead_gallery.png")
+        document.getElementById("h2indicator").setAttribute("src", "images/UI/character_h2.webp")
+
+
+        menuIndex=0;
+    }else{
+        console.log("Estas en el mismo");
+    }
+}
+
+function galleryMenu(){
+    if(menuIndex==0){
+        charactersDiv.style.display="none";
+        postersDiv.style.display="block";
+        document.getElementById("characterButton").setAttribute("src","images/UI/navhead_chara.png")
+        document.getElementById("galleryButton").setAttribute("src","images/UI/navhead_gallery_on.png")
+        document.getElementById("h2indicator").setAttribute("src", "images/UI/gallery_h2.png")
+        menuIndex=1;
+    }else{
+        console.log("Estas en el mismo");
+    }
+}
 
 const students = document.getElementsByClassName("Student");
 const heroes = document.getElementsByClassName("Hero");
