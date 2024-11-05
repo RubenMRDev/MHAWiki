@@ -29,5 +29,5 @@ This project was developed using the following technologies:
 
 ## 📜 Documentation and preview
 
-For detailed information on project structure, implementation, and additional notes, please refer to the full documentation available [here](https://www.notion.so/MHA-Wiki-Documentation-12f2fc3534f680359c56ee95efda8030?pvs=4).
-For the preview of the website click [here](https://mha-wiki.vercel.app/)
+- For detailed information on project structure, implementation, and additional notes, please refer to the full documentation available [here](https://www.notion.so/MHA-Wiki-Documentation-12f2fc3534f680359c56ee95efda8030?pvs=4).
+- For the preview of the website click [here](https://mha-wiki.vercel.app/)
