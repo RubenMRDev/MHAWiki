@@ -13,10 +13,10 @@ This project was created to explore and learn about JSON data handling and respo
 
 - [x]  Add all Class-A Students
 - [x]  Better folder structure
-- [ ]  Add all Pro Heroes
-- [ ]  Add all Villans
+- [X]  Add all Pro Heroes
+- [X]  Add all Villans
 - [ ]  Fix the IDs in the JSON file
-- [ ]  Better UI Design in the cards
+- [X]  Better UI Design in the cards
 
 ## 🚀 Technologies Used
 

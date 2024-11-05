@@ -46,19 +46,23 @@ fetchCharactersJson().then(char=>{
         let age= char.characters[i].age;
         let height= char.characters[i].height;
         let rank= char.characters[i].rank;
+        let color = char.characters[i].color;
 
-        characterSection.innerHTML+=`
-        <div class="card mx-auto mb-4 bg-warning bg-gradient ${rank}"  style="width: 18rem;">
-            <img src="${url}" class="card-img-top outline-img mt-3" alt="..." style="width:17rem; height: 25rem; object-fit: contain; filter: drop-shadow(-10px -10px 0 #90731d);">
-            <div class="card-body">
+        characterSection.innerHTML += `
+    <div class="card mx-auto mb-4 ${rank}" style="position: relative; width: 18rem;">
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(images/UI/test.png); background-size: 100px; z-index: 1;"></div>
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(${color}); /* Semi-transparent #50b6a9 */z-index: 2;"></div>
+        <img src="${url}" class="card-img-top outline-img mt-3" alt="..." style=" width: 17rem; height: 25rem; object-fit: contain;  filter: drop-shadow(-10px -10px 0 rgba(26, 26, 26, 0.27));  position: relative; z-index: 3;">
+        <div class="card-body" style="position: relative; z-index: 3;">
             <h5 class="card-title">${name}</h5>
-                    <p class="card-text mb-0">${heroname}</p>
-                    <p class="card-text mb-0"><small class="text-body-secondary">Quirk: ${quirk}</small></p>
-                    <p class="card-text mb-0"><small class="text-body-secondary">Age: ${age}</small></p>
-                    <p class="card-text mb-0"><small class="text-body-secondary">Height: ${height}</small></p>
-            </div>
+            <p class="card-text mb-0">${heroname}</p>
+            <p class="card-text mb-0"><small class="text-body-secondary">Quirk: ${quirk}</small></p>
+            <p class="card-text mb-0"><small class="text-body-secondary">Age: ${age}</small></p>
+            <p class="card-text mb-0"><small class="text-body-secondary">Height: ${height}</small></p>
         </div>
-        `;
+    </div>
+`;
+
 
     }
 })
@@ -107,17 +111,17 @@ function galleryMenu(){
 
 const students = document.getElementsByClassName("Student");
 const heroes = document.getElementsByClassName("Hero");
-const villans = document.getElementsByClassName("Villan");
+const villains = document.getElementsByClassName("Villain");
 const profesors = document.getElementsByClassName("Profesor");
 
 let studentActive=false;
-let villanActive=false;
+let villainActive=false;
 let heroActive=false;
 let profesorActive=false;
 
 const studentButton= document.getElementById("studentButton");
 const heroButton= document.getElementById("heroButton");
-const villanButton= document.getElementById("villanButton");
+const villainButton= document.getElementById("villainButton");
 const profesorButton= document.getElementById("profesorButton");
 
 function changeImageButton(button,url){
@@ -132,8 +136,8 @@ function hideAll(){
     for(let hero of heroes){
         hero.style.display="none";
     }
-    for(let villan of villans){
-        villan.style.display="none";
+    for(let villain of villains){
+        villain.style.display="none";
     }
     for(let profesor of profesors){
         profesor.style.display="none";
@@ -147,8 +151,8 @@ function showAll(){
     for(let hero of heroes){
         hero.style.display="block";
     }
-    for(let villan of villans){
-        villan.style.display="block";
+    for(let villain of villains){
+        villain.style.display="block";
     }
 }
 
@@ -161,9 +165,9 @@ function showStudents(){
         studentActive=true;
         heroActive=false;
         profesor=false;
-        villanActive=false;
+        villainActive=false;
         changeImageButton(studentButton,"images/UI/nav_chara_group01_on.png");
-        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(villainButton,"images/UI/nav_chara_group06_off.png");
         changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
         changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
 
@@ -172,7 +176,7 @@ function showStudents(){
         showAll()
         studentActive=false;
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
-        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(villainButton,"images/UI/nav_chara_group06_off.png");
         changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
         changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
     }
@@ -186,11 +190,11 @@ function showHeroes(){
         }
         heroActive=true;
         studentActive=false;
-        villanActive=false;
+        villainActive=false;
         profesor=false;
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
-        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(villainButton,"images/UI/nav_chara_group06_off.png");
         changeImageButton(heroButton,"images/UI/nav_chara_group05_on.png");
         changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
 
@@ -199,7 +203,7 @@ function showHeroes(){
         heroActive=false;
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
-        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(villainButton,"images/UI/nav_chara_group06_off.png");
         changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
         changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
 
@@ -214,10 +218,10 @@ function showProfesors(){
         heroActive=false;
         profesorActive=true;
         studentActive=false;
-        villanActive=false;
+        villainActive=false;
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
-        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(villainButton,"images/UI/nav_chara_group06_off.png");
         changeImageButton(profesorButton,"images/UI/nav_chara_group04_on.png");
         changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
 
@@ -226,34 +230,34 @@ function showProfesors(){
         profesorActive=false;
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
-        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(villainButton,"images/UI/nav_chara_group06_off.png");
         changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
         changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
 
     }
 }
 
-function showVillans(){
-    if(!villanActive){
+function showVillains(){
+    if(!villainActive){
         hideAll()
-        for(let villan of villans){
-            villan.style.display="block";
+        for(let villain of villains){
+            villain.style.display="block";
         }
-        villanActive=true;
+        villainActive=true;
         studentActive=false;
         profesorActive=false;
         heroActive=false;
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
-        changeImageButton(villanButton,"images/UI/nav_chara_group06_on.png");
+        changeImageButton(villainButton,"images/UI/nav_chara_group06_on.png");
         changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
         changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
     }else{
         showAll()
-        villanActive=false;
+        villainActive=false;
         
         changeImageButton(studentButton,"images/UI/nav_chara_group01_off.png");
-        changeImageButton(villanButton,"images/UI/nav_chara_group06_off.png");
+        changeImageButton(villainButton,"images/UI/nav_chara_group06_off.png");
         changeImageButton(heroButton,"images/UI/nav_chara_group05_off.png");
         changeImageButton(profesorButton,"images/UI/nav_chara_group04_off.png");
         
