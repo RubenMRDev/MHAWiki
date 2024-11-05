@@ -559,7 +559,7 @@
             "age": 31,
             "height": "168 cm",
             "url": "images/heroes/mandalay.webp",
-            "color": "202, 92, 95"
+            "color": "202, 92, 95,0.5"
         },
         {
             "id": 52,

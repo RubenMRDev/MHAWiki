@@ -51,7 +51,7 @@ fetchCharactersJson().then(char=>{
         characterSection.innerHTML += `
     <div class="card mx-auto mb-4 ${rank}" style="position: relative; width: 18rem;">
         <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(images/UI/test.png); background-size: 100px; z-index: 1;"></div>
-        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(${color}); /* Semi-transparent #50b6a9 */z-index: 2;"></div>
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(${color}); z-index: 2;"></div>
         <img src="${url}" class="card-img-top outline-img mt-3" alt="..." style=" width: 17rem; height: 25rem; object-fit: contain;  filter: drop-shadow(-10px -10px 0 rgba(26, 26, 26, 0.27));  position: relative; z-index: 3;">
         <div class="card-body" style="position: relative; z-index: 3;">
             <h5 class="card-title">${name}</h5>
