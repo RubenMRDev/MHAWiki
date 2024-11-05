@@ -15,7 +15,7 @@ This project was created to explore and learn about JSON data handling and respo
 - [x]  Better folder structure
 - [X]  Add all Pro Heroes
 - [X]  Add all Villans
-- [ ]  Fix the IDs in the JSON file
+- [X]  Fix the IDs in the JSON file
 - [X]  Better UI Design in the cards
 
 ## 🚀 Technologies Used
@@ -27,6 +27,7 @@ This project was developed using the following technologies:
 -   **JavaScript** - for interaction with the JSON file and animations.
 -   **JSON** - to store and manage character information.
 
-## 📜 Documentation and mre
+## 📜 Documentation and preview
 
 For detailed information on project structure, implementation, and additional notes, please refer to the full documentation available [here](https://www.notion.so/MHA-Wiki-Documentation-12f2fc3534f680359c56ee95efda8030?pvs=4).
+For the preview of the website click [here](https://mha-wiki.vercel.app/)

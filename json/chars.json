@@ -9,7 +9,7 @@
             "age": 16,
             "height": "166 cm",
             "url": "images/students/izuku-midoriya.webp",
-            "color":"80, 182, 169, 0.5"
+            "color": "80, 182, 169, 0.5"
         },
         {
             "id": 2,
@@ -20,7 +20,7 @@
             "age": 16,
             "height": "172 cm",
             "url": "images/students/katsuki-bakugo.webp",
-            "color":"220, 106, 37, 0.5"
+            "color": "220, 106, 37, 0.5"
         },
         {
             "id": 3,
@@ -31,8 +31,9 @@
             "age": 16,
             "height": "156 cm",
             "url": "images/students/ochako-uraraka.webp",
-            "color":"237, 131, 169,0.5"
-        },{
+            "color": "237, 131, 169,0.5"
+        },
+        {
             "id": 4,
             "name": "Tenya Iida",
             "rank": "Student",
@@ -41,7 +42,7 @@
             "age": 17,
             "height": "179 cm",
             "url": "images/students/tenya-iida.webp",
-            "color":"55, 66, 120,0.5"
+            "color": "55, 66, 120,0.5"
         },
         {
             "id": 5,
@@ -52,7 +53,7 @@
             "age": 16,
             "height": "176 cm",
             "url": "images/students/shoto-todoroki.webp",
-            "color":"62, 201, 221,0.5"
+            "color": "62, 201, 221,0.5"
         },
         {
             "id": 6,
@@ -63,7 +64,7 @@
             "age": 16,
             "height": "150 cm",
             "url": "images/students/tsuyu-asui.webp",
-            "color":"63, 172, 74,0.5"
+            "color": "63, 172, 74,0.5"
         },
         {
             "id": 7,
@@ -74,7 +75,7 @@
             "age": 16,
             "height": "108 cm",
             "url": "images/students/minoru-mineta.webp",
-            "color":"114, 52, 153,0.5"
+            "color": "114, 52, 153,0.5"
         },
         {
             "id": 8,
@@ -85,7 +86,7 @@
             "age": 16,
             "height": "170 cm",
             "url": "images/students/ejiro-kirishima.webp",
-            "color":"187, 50, 43,0.5"
+            "color": "187, 50, 43,0.5"
         },
         {
             "id": 9,
@@ -96,7 +97,7 @@
             "age": 16,
             "height": "173 cm",
             "url": "images/students/momo-yaoyorozu.webp",
-            "color":"153, 26, 24,0.5"
+            "color": "153, 26, 24,0.5"
         },
         {
             "id": 10,
@@ -107,7 +108,7 @@
             "age": 16,
             "height": "164 cm",
             "url": "images/students/fumikage-tokoyami.webp",
-            "color":"39, 37, 59,0.5"
+            "color": "39, 37, 59,0.5"
         },
         {
             "id": 11,
@@ -118,7 +119,7 @@
             "age": 16,
             "height": "168 cm",
             "url": "images/students/denki-kaminari.webp",
-            "color":"248, 234, 66,0.5"
+            "color": "248, 234, 66,0.5"
         },
         {
             "id": 12,
@@ -129,7 +130,7 @@
             "age": 16,
             "height": "167 cm",
             "url": "images/students/yuga-aoyama.webp",
-            "color":"187, 149, 77,0.5"
+            "color": "187, 149, 77,0.5"
         },
         {
             "id": 13,
@@ -140,7 +141,7 @@
             "age": 16,
             "height": "156 cm",
             "url": "images/students/kyoka-jiro.webp",
-            "color":"54, 71, 73,0.5"
+            "color": "54, 71, 73,0.5"
         },
         {
             "id": 14,
@@ -151,7 +152,7 @@
             "age": 16,
             "height": "158 cm",
             "url": "images/students/mina-ashido.webp",
-            "color":"232, 191, 209,0.5"
+            "color": "232, 191, 209,0.5"
         },
         {
             "id": 15,
@@ -162,7 +163,7 @@
             "age": 16,
             "height": "178 cm",
             "url": "images/students/mezo-shoji.webp",
-            "color":"147, 168, 195,0.5"
+            "color": "147, 168, 195,0.5"
         },
         {
             "id": 16,
@@ -173,7 +174,7 @@
             "age": 16,
             "height": "169 cm",
             "url": "images/students/mashirao-ojiro.webp",
-            "color":"209, 208, 208,0.5"
+            "color": "209, 208, 208,0.5"
         },
         {
             "id": 17,
@@ -184,7 +185,7 @@
             "age": 16,
             "height": "176 cm",
             "url": "images/students/hanta-sero.webp",
-            "color":"233, 171, 77,0.5"
+            "color": "233, 171, 77,0.5"
         },
         {
             "id": 18,
@@ -195,7 +196,7 @@
             "age": 16,
             "height": "158 cm",
             "url": "images/students/toru-hagakure.webp",
-            "color":"205, 221, 230,0.5"
+            "color": "205, 221, 230,0.5"
         },
         {
             "id": 19,
@@ -206,7 +207,7 @@
             "age": 16,
             "height": "170 cm",
             "url": "images/students/rikido-sato.webp",
-            "color":"231, 178, 51,0.5"
+            "color": "231, 178, 51,0.5"
         },
         {
             "id": 20,
@@ -217,10 +218,10 @@
             "age": 16,
             "height": "172 cm",
             "url": "images/students/koji-koda.webp",
-            "color":"227, 184, 100,0.5"
+            "color": "227, 184, 100,0.5"
         },
         {
-            "id": 11,
+            "id": 21,
             "name": "Toshinori Yagi ",
             "rank": "Profesor",
             "heroname": "All Might",
@@ -228,10 +229,10 @@
             "age": 49,
             "height": "220 cm",
             "url": "images/profesors/toshinori-yagi.webp",
-            "color":"242, 216, 64,0.5"
+            "color": "242, 216, 64,0.5"
         },
         {
-            "id": 12,
+            "id": 22,
             "name": "Shota Aizawa",
             "rank": "Profesor",
             "heroname": "Eraser Head",
@@ -239,10 +240,10 @@
             "age": 30,
             "height": "180 cm",
             "url": "images/profesors/shota-aizawa.webp",
-            "color":"72, 88, 74,0.5"
+            "color": "72, 88, 74,0.5"
         },
         {
-            "id": 13,
+            "id": 23,
             "name": "Hizashi Yamada",
             "rank": "Profesor",
             "heroname": "Present Mic",
@@ -250,10 +251,10 @@
             "age": 30,
             "height": "185 cm",
             "url": "images/profesors/hizashi-yamada.webp",
-            "color":"230, 159, 85,0.5"
+            "color": "230, 159, 85,0.5"
         },
         {
-            "id": 12,
+            "id": 24,
             "name": "Chiyo Shuzenji",
             "rank": "Profesor",
             "heroname": "Recovery Girl",
@@ -261,9 +262,10 @@
             "age": 29,
             "height": "160 cm",
             "url": "images/profesors/recovery-girl.webp",
-           "color": "219, 220, 251,0.5"
-        },{
-            "id": 14,
+            "color": "219, 220, 251,0.5"
+        },
+        {
+            "id": 25,
             "name": "Anan Kurose",
             "rank": "Profesor",
             "heroname": "Thirteen",
@@ -272,8 +274,9 @@
             "height": "175 cm",
             "url": "images/profesors/thirteen.webp",
             "color": "134, 136, 140, 0.5"
-        },{
-            "id": 15,
+        },
+        {
+            "id": 26,
             "name": "Nezu",
             "rank": "Profesor",
             "heroname": "Nezu",
@@ -282,8 +285,9 @@
             "height": "70 cm",
             "url": "images/profesors/nezu.webp",
             "color": "239, 213, 209, 0.5"
-        },{
-            "id": 14,
+        },
+        {
+            "id": 27,
             "name": "Nemuri Kayama",
             "rank": "Profesor",
             "heroname": "Midnight",
@@ -291,10 +295,10 @@
             "age": 29,
             "height": "168 cm",
             "url": "images/profesors/nemuri-kayama.webp",
-            "color":"120, 101, 174,0.5"
+            "color": "120, 101, 174,0.5"
         },
         {
-            "id": 15,
+            "id": 28,
             "name": "Sekijiro Kan",
             "rank": "Profesor",
             "heroname": "Cementoss",
@@ -302,10 +306,10 @@
             "age": 35,
             "height": "180 cm",
             "url": "images/profesors/sekijiro-kan.webp",
-            "color":"204, 208, 223,0.5"
+            "color": "204, 208, 223,0.5"
         },
         {
-            "id": 16,
+            "id": 29,
             "name": "Sōsuke Aizawa",
             "rank": "Profesor",
             "heroname": "Snipe",
@@ -313,9 +317,10 @@
             "age": 34,
             "height": "176 cm",
             "url": "images/profesors/sousuke-aizawa.webp",
-            "color":"165, 92, 92,0.5"
-        },{
-            "id": 16,
+            "color": "165, 92, 92,0.5"
+        },
+        {
+            "id": 30,
             "name": "Ectoplasm",
             "rank": "Profesor",
             "heroname": "Ectoplasm",
@@ -324,8 +329,9 @@
             "height": "180 cm",
             "url": "images/profesors/ectoplasm.webp",
             "color": "100, 100, 255, 0.5"
-        },{
-            "id": 17,
+        },
+        {
+            "id": 31,
             "name": "Vlad King",
             "rank": "Profesor",
             "heroname": "Vlad King",
@@ -333,10 +339,10 @@
             "age": 42,
             "height": "192 cm",
             "url": "images/profesors/vlad-king.webp",
-            "color":"154, 49, 47,0.5"
+            "color": "154, 49, 47,0.5"
         },
         {
-            "id": 13,
+            "id": 32,
             "name": "Enji Todoroki",
             "rank": "Hero",
             "heroname": "Endeavor",
@@ -344,10 +350,10 @@
             "age": 45,
             "height": "195 cm",
             "url": "images/heroes/enji-todoroki.webp",
-            "color":"144, 29, 29,0.5"
+            "color": "144, 29, 29,0.5"
         },
         {
-            "id": 14,
+            "id": 33,
             "name": "Keigo Takami",
             "rank": "Hero",
             "heroname": "Hawks",
@@ -355,10 +361,10 @@
             "age": 23,
             "height": "172 cm",
             "url": "images/heroes/hawks.webp",
-            "color":"220, 156, 70,0.5"
+            "color": "220, 156, 70,0.5"
         },
         {
-            "id": 18,
+            "id": 34,
             "name": "Hijiri Kōhei",
             "rank": "Hero",
             "heroname": "Beast Jeanist",
@@ -366,10 +372,10 @@
             "age": 35,
             "height": "184 cm",
             "url": "images/heroes/hijiri-kouhei.webp",
-            "color":"116, 155, 203,0.5"
+            "color": "116, 155, 203,0.5"
         },
         {
-            "id": 19,
+            "id": 35,
             "name": "Shinji Nishiya",
             "rank": "Hero",
             "heroname": "Edge Shot",
@@ -377,10 +383,10 @@
             "age": 32,
             "height": "179 cm",
             "url": "images/heroes/shinji-nishiya.webp",
-            "color":"115, 60, 60,0.5"
+            "color": "115, 60, 60,0.5"
         },
         {
-            "id": 15,
+            "id": 36,
             "name": "Mirko",
             "rank": "Hero",
             "heroname": "Rabbit Hero",
@@ -388,10 +394,10 @@
             "age": 27,
             "height": "159 cm",
             "url": "images/heroes/mirko.webp",
-            "color":"209, 209, 209,0.5"
+            "color": "209, 209, 209,0.5"
         },
         {
-            "id": 20,
+            "id": 37,
             "name": "Cassie",
             "rank": "Hero",
             "heroname": "Star and Stripe",
@@ -399,10 +405,10 @@
             "age": 42,
             "height": "182 cm",
             "url": "images/heroes/star-and-stripe.webp",
-            "color":"115, 182, 253,0.5"
+            "color": "115, 182, 253,0.5"
         },
         {
-            "id": 21,
+            "id": 38,
             "name": "Sorahiko Torino",
             "rank": "Hero",
             "heroname": "Gran Torino",
@@ -410,10 +416,10 @@
             "age": 85,
             "height": "150 cm",
             "url": "images/heroes/gran-torino.webp",
-            "color":"155, 120, 55,0.5"
+            "color": "155, 120, 55,0.5"
         },
         {
-            "id": 22,
+            "id": 39,
             "name": "Moe Kamiji",
             "rank": "Hero",
             "heroname": "Burnin",
@@ -421,10 +427,10 @@
             "age": 27,
             "height": "167 cm",
             "url": "images/heroes/burnin.webp",
-            "color":"197, 219, 116,0.5"
+            "color": "197, 219, 116,0.5"
         },
         {
-            "id": 23,
+            "id": 40,
             "name": "Yu Takeyama",
             "rank": "Hero",
             "heroname": "Mt. Lady",
@@ -432,10 +438,10 @@
             "age": 24,
             "height": "162 cm",
             "url": "images/heroes/mt-lady.webp",
-            "color":"124, 107, 177,0.5"
+            "color": "124, 107, 177,0.5"
         },
         {
-            "id": 24,
+            "id": 41,
             "name": "Shinji Nishiya",
             "rank": "Hero",
             "heroname": "Kamui Woods",
@@ -443,10 +449,10 @@
             "age": 29,
             "height": "191 cm",
             "url": "images/heroes/kamui-woods.webp",
-            "color":"173, 117, 80,0.5"
+            "color": "173, 117, 80,0.5"
         },
         {
-            "id": 25,
+            "id": 42,
             "name": "Mirai Sasaki",
             "rank": "Hero",
             "heroname": "Sir Nighteye",
@@ -454,10 +460,10 @@
             "age": 38,
             "height": "200 cm",
             "url": "images/heroes/sir-nighteye.webp",
-            "color":"115, 181, 145,0.5"
+            "color": "115, 181, 145,0.5"
         },
         {
-            "id": 26,
+            "id": 43,
             "name": "Taishiro Toyomitsu",
             "rank": "Hero",
             "heroname": "Fat Gum",
@@ -465,10 +471,10 @@
             "age": 30,
             "height": "215 cm",
             "url": "images/heroes/fat-gum.webp",
-            "color":"227, 169, 48,0.5"
+            "color": "227, 169, 48,0.5"
         },
         {
-            "id": 27,
+            "id": 44,
             "name": "Ryuko Tatsuma",
             "rank": "Hero",
             "heroname": "Ryukyu",
@@ -476,10 +482,10 @@
             "age": 28,
             "height": "166 cm",
             "url": "images/heroes/ryukyu.webp",
-            "color":"168, 64, 64,0.5"
+            "color": "168, 64, 64,0.5"
         },
         {
-            "id": 28,
+            "id": 45,
             "name": "Kaoruko Awata",
             "rank": "Hero",
             "heroname": "Bubble Girl",
@@ -487,10 +493,10 @@
             "age": 23,
             "height": "160 cm",
             "url": "images/heroes/bubble-girl.webp",
-            "color":"48, 73, 103,0.5"
+            "color": "48, 73, 103,0.5"
         },
         {
-            "id": 29,
+            "id": 46,
             "name": "Juzo Moashi",
             "rank": "Hero",
             "heroname": "Centipeder",
@@ -498,10 +504,10 @@
             "age": 31,
             "height": "185 cm",
             "url": "images/heroes/centipeder.webp",
-            "color":"118, 98, 80,0.5"
+            "color": "118, 98, 80,0.5"
         },
         {
-            "id": 30,
+            "id": 47,
             "name": "Ken Takagi",
             "rank": "Hero",
             "heroname": "Lock Lock",
@@ -509,10 +515,10 @@
             "age": 34,
             "height": "182 cm",
             "url": "images/heroes/lock-lock.webp",
-            "color":"236, 205, 96,0.5"
+            "color": "236, 205, 96,0.5"
         },
         {
-            "id": 31,
+            "id": 48,
             "name": "Kugo Sakamata",
             "rank": "Hero",
             "heroname": "Gang Orca",
@@ -520,10 +526,10 @@
             "age": 39,
             "height": "203 cm",
             "url": "images/heroes/gang-orca.webp",
-            "color":"75, 85, 112,0.5"
+            "color": "75, 85, 112,0.5"
         },
         {
-            "id": 32,
+            "id": 49,
             "name": "Desutegoro",
             "rank": "Hero",
             "heroname": "Death Arms",
@@ -531,10 +537,10 @@
             "age": 40,
             "height": "192 cm",
             "url": "images/heroes/desutegoro.webp",
-            "color":"98, 147, 172,0.5"
+            "color": "98, 147, 172,0.5"
         },
         {
-            "id": 33,
+            "id": 50,
             "name": "Backdraft",
             "rank": "Hero",
             "heroname": "Backdraft",
@@ -542,10 +548,10 @@
             "age": 37,
             "height": "190 cm",
             "url": "images/heroes/backdraft.webp",
-            "color":"176, 171, 82,0.5"
+            "color": "176, 171, 82,0.5"
         },
         {
-            "id": 34,
+            "id": 51,
             "name": "Shino Sosaki",
             "rank": "Hero",
             "heroname": "Mandalay",
@@ -553,10 +559,10 @@
             "age": 31,
             "height": "168 cm",
             "url": "images/heroes/mandalay.webp",
-            "color":"202, 92, 95"
+            "color": "202, 92, 95"
         },
         {
-            "id": 35,
+            "id": 52,
             "name": "Tomoko Shiretoko",
             "rank": "Hero",
             "heroname": "Ragdoll",
@@ -564,10 +570,10 @@
             "age": 29,
             "height": "167 cm",
             "url": "images/heroes/ragdoll.webp",
-            "color":"211, 184, 88,0.5"
+            "color": "211, 184, 88,0.5"
         },
         {
-            "id": 36,
+            "id": 53,
             "name": "Ryuko Tsuchikawa",
             "rank": "Hero",
             "heroname": "Pixie-Bob",
@@ -575,10 +581,10 @@
             "age": 28,
             "height": "170 cm",
             "url": "images/heroes/pixie-bob.webp",
-            "color":"108, 172, 197,0.5"
+            "color": "108, 172, 197,0.5"
         },
         {
-            "id": 37,
+            "id": 54,
             "name": "Yawara Chatora",
             "rank": "Hero",
             "heroname": "Tiger",
@@ -586,10 +592,10 @@
             "age": 34,
             "height": "180 cm",
             "url": "images/heroes/tora.webp",
-            "color":"128, 68, 68,0.5"
+            "color": "128, 68, 68,0.5"
         },
         {
-            "id": 38,
+            "id": 55,
             "name": "Fourth Kind",
             "rank": "Hero",
             "heroname": "Fourth Kind",
@@ -597,10 +603,10 @@
             "age": 40,
             "height": "175 cm",
             "url": "images/heroes/fourth-kind.webp",
-            "color":"203, 189, 86,0.5"
+            "color": "203, 189, 86,0.5"
         },
         {
-            "id": 39,
+            "id": 56,
             "name": "Gun Head",
             "rank": "Hero",
             "heroname": "Gun Head",
@@ -608,10 +614,10 @@
             "age": 28,
             "height": "178 cm",
             "url": "images/heroes/gun-head.webp",
-            "color":"129, 141, 92,0.5"
+            "color": "129, 141, 92,0.5"
         },
         {
-            "id": 40,
+            "id": 57,
             "name": "Uwabami",
             "rank": "Hero",
             "heroname": "Uwabami",
@@ -619,10 +625,10 @@
             "age": 24,
             "height": "173 cm",
             "url": "images/heroes/uwabami.webp",
-            "color":"145, 97, 155,0.5"
+            "color": "145, 97, 155,0.5"
         },
         {
-            "id": 41,
+            "id": 58,
             "name": "Masaki Mizushima",
             "rank": "Hero",
             "heroname": "Manual",
@@ -630,10 +636,10 @@
             "age": 30,
             "height": "178 cm",
             "url": "images/heroes/manual.webp",
-            "color":"192, 215, 228,0.5"
+            "color": "192, 215, 228,0.5"
         },
         {
-            "id": 42,
+            "id": 59,
             "name": "Selkie",
             "rank": "Hero",
             "heroname": "Selkie",
@@ -641,10 +647,10 @@
             "age": 26,
             "height": "190 cm",
             "url": "images/heroes/selkie.webp",
-            "color":"85, 132, 180,0.5"
+            "color": "85, 132, 180,0.5"
         },
         {
-            "id": 43,
+            "id": 60,
             "name": "Sirius",
             "rank": "Hero",
             "heroname": "Sirius",
@@ -652,184 +658,183 @@
             "age": 22,
             "height": "164 cm",
             "url": "images/heroes/sirius.webp",
-            "color":"120, 130, 167,0.5"
+            "color": "120, 130, 167,0.5"
         },
         {
-                "id": 16,
-                "name": "Tomura Shigaraki",
-                "rank": "Villain",
-                "heroname": "Shigaraki",
-                "quirk": "Decay",
-                "age": 21,
-                "height": "175 cm",
-                "url": "images/villans/tomura-shigaraki.webp",
-                "color":"78, 83, 99,0.5"
-            },
-            {
-                "id": 17,
-                "name": "All For One",
-                "rank": "Villain",
-                "heroname": "Symbol of Evil",
-                "quirk": "All For One",
-                "age": 100,
-                "height": "182 cm",
-                "url": "images/villans/all-for-one.webp",
-                "color":"65, 73, 88,0.5"
-            },
-            {
-                "id": 18,
-                "name": "Toya Todoroki",
-                "rank": "Villain",
-                "heroname": "Dabi",
-                "quirk": "Cremation",
-                "age": 24,
-                "height": "176 cm",
-                "url": "images/villans/toya-todoroki.webp",
-                "color":"115, 94, 104,0.5"
-            },
-            {
-                "id": 19,
-                "name": "Himiko Toga",
-                "rank": "Villain",
-                "heroname": "Toga",
-                "quirk": "Transform",
-                "age": 17,
-                "height": "157 cm",
-                "url": "images/villans/himiko-toga.webp",
-                "color":"157, 48, 44,0.5"
-            },
-            {
-                "id": 20,
-                "name": "Shuichi",
-                "rank": "Villain",
-                "heroname": "Spinner",
-                "quirk": "Gecko",
-                "age": 22,
-                "height": "180 cm",
-                "url": "images/villans/spinner.webp",
-                "color":"111, 77, 110,0.5"
-            },
-            {
-                "id": 21,
-                "name": "Jin Bubaigawara",
-                "rank": "Villain",
-                "heroname": "Twice",
-                "quirk": "Double",
-                "age": 31,
-                "height": "178 cm",
-                "url": "images/villans/twice.webp",
-                "color":"69, 77, 93,0.5"
-            },
-            {
-                "id": 22,
-                "name": "Atsuhiro Sako",
-                "rank": "Villain",
-                "heroname": "Mr. Compress",
-                "quirk": "Compress",
-                "age": 32,
-                "height": "175 cm",
-                "url": "images/villans/mr-compress.webp",
-                "color":"154, 89, 55,0.5"
-            },
-            {
-                "id": 23,
-                "name": "Kurogiri",
-                "rank": "Villain",
-                "heroname": "Kurogiri",
-                "quirk": "Warp Gate",
-                "age": 24,
-                "height": "180 cm",
-                "url": "images/villans/kurogiri.webp",
-                "color":"101, 88, 115,0.5"
-            },
-            {
-                "id": 24,
-                "name": "Chizome Akaguro",
-                "rank": "Villain",
-                "heroname": "Stain",
-                "quirk": "Bloodcurdle",
-                "age": 31,
-                "height": "180 cm",
-                "url": "images/villans/stain.webp",
-                "color":"108, 29, 39,0.5"
-            },
-            {
-                "id": 25,
-                "name": "Kaina Tsutsumi",
-                "rank": "Villain",
-                "heroname": "Lady Nagant",
-                "quirk": "Sniper",
-                "age": 29,
-                "height": "168 cm",
-                "url": "images/villans/lady-nagant.webp",
-                "color":"65, 20, 85,0.5"
-            },
-            {
-                "id": 26,
-                "name": "Danjuro Tobita",
-                "rank": "Villain",
-                "heroname": "Gentle Criminal",
-                "quirk": "Elasticity",
-                "age": 30,
-                "height": "182 cm",
-                "url": "images/villans/gentle.webp",
-                "color":"68, 55, 109,0.5"
-            },
-            {
-                "id": 27,
-                "name": "Manami Aiba",
-                "rank": "Villain",
-                "heroname": "La Brava",
-                "quirk": "Passion",
-                "age": 22,
-                "height": "150 cm",
-                "url": "images/villans/la-brava.webp",
-                "color":"253, 136, 150,0.5"
-            },
-            {
-                "id": 28,
-                "name": "Gigantomachia",
-                "rank": "Villain",
-                "heroname": "Gigantomachia",
-                "quirk": "Gigantification",
-                "age": 70,
-                "height": "250 cm",
-                "url": "images/villans/gigantomachia.webp",
-                "color":"71, 43, 38,0.5"
-            },
-            {
-                "id": 29,
-                "name": "Tomoyasu Chikazoku",
-                "rank": "Villain",
-                "heroname": "Skeptic",
-                "quirk": "Information Manipulation",
-                "age": 25,
-                "height": "175 cm",
-                "url": "images/villans/skeptic.webp",
-                "color":"66, 65, 65,0.5"
-            },
-            {
-                "id": 30,
-                "name": "Kai Chisaki",
-                "rank": "Villain",
-                "heroname": "Overhaul",
-                "quirk": "Overhaul",
-                "age": 28,
-                "height": "179 cm",
-                "url": "images/villans/kai-chisaki.webp",
-                "color":"92, 74, 116,0.5"
-            },
-            {
-                "id": 31,
-                "name": "Nomu",
-                "rank": "Villain",
-                "heroname": "Nomu",
-                "quirk": "Enhancement",
-                "age": "Unknown",
-                "height": "250 cm",
-                "url": "images/villans/nomu.webp",
-                "color":"154, 131, 93,0.5"
-            }
-        ]
-        
+            "id": 61,
+            "name": "Tomura Shigaraki",
+            "rank": "Villain",
+            "heroname": "Shigaraki",
+            "quirk": "Decay",
+            "age": 21,
+            "height": "175 cm",
+            "url": "images/villans/tomura-shigaraki.webp",
+            "color": "78, 83, 99,0.5"
+        },
+        {
+            "id": 62,
+            "name": "All For One",
+            "rank": "Villain",
+            "heroname": "Symbol of Evil",
+            "quirk": "All For One",
+            "age": 100,
+            "height": "182 cm",
+            "url": "images/villans/all-for-one.webp",
+            "color": "65, 73, 88,0.5"
+        },
+        {
+            "id": 63,
+            "name": "Toya Todoroki",
+            "rank": "Villain",
+            "heroname": "Dabi",
+            "quirk": "Cremation",
+            "age": 24,
+            "height": "176 cm",
+            "url": "images/villans/toya-todoroki.webp",
+            "color": "115, 94, 104,0.5"
+        },
+        {
+            "id": 64,
+            "name": "Himiko Toga",
+            "rank": "Villain",
+            "heroname": "Toga",
+            "quirk": "Transform",
+            "age": 17,
+            "height": "157 cm",
+            "url": "images/villans/himiko-toga.webp",
+            "color": "157, 48, 44,0.5"
+        },
+        {
+            "id": 65,
+            "name": "Shuichi",
+            "rank": "Villain",
+            "heroname": "Spinner",
+            "quirk": "Gecko",
+            "age": 22,
+            "height": "180 cm",
+            "url": "images/villans/spinner.webp",
+            "color": "111, 77, 110,0.5"
+        },
+        {
+            "id": 66,
+            "name": "Jin Bubaigawara",
+            "rank": "Villain",
+            "heroname": "Twice",
+            "quirk": "Double",
+            "age": 31,
+            "height": "178 cm",
+            "url": "images/villans/twice.webp",
+            "color": "69, 77, 93,0.5"
+        },
+        {
+            "id": 67,
+            "name": "Atsuhiro Sako",
+            "rank": "Villain",
+            "heroname": "Mr. Compress",
+            "quirk": "Compress",
+            "age": 32,
+            "height": "175 cm",
+            "url": "images/villans/mr-compress.webp",
+            "color": "154, 89, 55,0.5"
+        },
+        {
+            "id": 68,
+            "name": "Kurogiri",
+            "rank": "Villain",
+            "heroname": "Kurogiri",
+            "quirk": "Warp Gate",
+            "age": 24,
+            "height": "180 cm",
+            "url": "images/villans/kurogiri.webp",
+            "color": "101, 88, 115,0.5"
+        },
+        {
+            "id": 69,
+            "name": "Chizome Akaguro",
+            "rank": "Villain",
+            "heroname": "Stain",
+            "quirk": "Bloodcurdle",
+            "age": 31,
+            "height": "180 cm",
+            "url": "images/villans/stain.webp",
+            "color": "108, 29, 39,0.5"
+        },
+        {
+            "id": 70,
+            "name": "Kaina Tsutsumi",
+            "rank": "Villain",
+            "heroname": "Lady Nagant",
+            "quirk": "Sniper",
+            "age": 29,
+            "height": "168 cm",
+            "url": "images/villans/lady-nagant.webp",
+            "color": "65, 20, 85,0.5"
+        },
+        {
+            "id": 71,
+            "name": "Danjuro Tobita",
+            "rank": "Villain",
+            "heroname": "Gentle Criminal",
+            "quirk": "Elasticity",
+            "age": 30,
+            "height": "182 cm",
+            "url": "images/villans/gentle.webp",
+            "color": "68, 55, 109,0.5"
+        },
+        {
+            "id": 72,
+            "name": "Manami Aiba",
+            "rank": "Villain",
+            "heroname": "La Brava",
+            "quirk": "Passion",
+            "age": 22,
+            "height": "150 cm",
+            "url": "images/villans/la-brava.webp",
+            "color": "253, 136, 150,0.5"
+        },
+        {
+            "id": 73,
+            "name": "Gigantomachia",
+            "rank": "Villain",
+            "heroname": "Gigantomachia",
+            "quirk": "Gigantification",
+            "age": 70,
+            "height": "250 cm",
+            "url": "images/villans/gigantomachia.webp",
+            "color": "71, 43, 38,0.5"
+        },
+        {
+            "id": 74,
+            "name": "Tomoyasu Chikazoku",
+            "rank": "Villain",
+            "heroname": "Skeptic",
+            "quirk": "Information Manipulation",
+            "age": 25,
+            "height": "175 cm",
+            "url": "images/villans/skeptic.webp",
+            "color": "66, 65, 65,0.5"
+        },
+        {
+            "id": 75,
+            "name": "Kai Chisaki",
+            "rank": "Villain",
+            "heroname": "Overhaul",
+            "quirk": "Overhaul",
+            "age": 28,
+            "height": "179 cm",
+            "url": "images/villans/kai-chisaki.webp",
+            "color": "92, 74, 116,0.5"
+        },
+        {
+            "id": 76,
+            "name": "Nomu",
+            "rank": "Villain",
+            "heroname": "Nomu",
+            "quirk": "Enhancement",
+            "age": "Unknown",
+            "height": "250 cm",
+            "url": "images/villans/nomu.webp",
+            "color": "154, 131, 93,0.5"
+        }
+    ]
 }
